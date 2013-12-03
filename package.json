@@ -1,6 +1,6 @@
 {
   "name": "xbmc-xbox-controller",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Control XBMC using an original Xbox controller",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "main": "./xbmc-xbox-controller.js",
