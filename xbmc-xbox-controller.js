@@ -10,6 +10,7 @@
  */
 
 var fs = require('fs');
+var path = require('path');
 var util = require('util');
 
 var getopt = require('posix-getopt');
@@ -110,7 +111,7 @@ if (!devicepath) {
 var xbmcopts = {
   host: opts.host,
   port: opts.port,
-  iconbuffer: fs.readFileSync('./icon.jpg'),
+  iconbuffer: fs.readFileSync(path.join(__dirname, 'icon.jpg')),
   icontype: xec.ICON_JPEG
 };
 
