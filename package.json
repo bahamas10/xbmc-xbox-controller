@@ -1,0 +1,27 @@
+{
+  "name": "xbmc-xbox-controller",
+  "version": "0.0.0",
+  "description": "Control XBMC using an original Xbox controller",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./xbmc-xbox-controller.js",
+  "preferGlobal": true,
+  "bin": {
+    "xbmc-xbox-controller": "./xbmc-xbox-controller.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/bahamas10/node-xbmc-xbox-controller.git",
+  "license": "MIT",
+  "keywords": [
+    "xbmc",
+    "xbox",
+    "udp"
+  ],
+  "dependencies": {
+    "posix-getopt": "~1.0.0",
+    "latest": "~0.1.2",
+    "xbmc-event-client": "~0.0.2",
+    "xbox-hid-controller": "~0.0.0"
+  }
+}
