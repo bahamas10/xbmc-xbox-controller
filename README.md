@@ -112,6 +112,7 @@ Usage
       -H, --host <host>             [env XBOX_XBMC_HOST] host on which to listen, defaults to localhost
       -l, --list                    list all HID devices found and exit
       -p, --port <port>             [env XBOX_XBMC_PORT] port on which to listen, defaults to 9777
+      -u, --updates                 check for available updates
       -v, --verbose                 increase verbosity
       -V, --version                 print the version number and exit
 
